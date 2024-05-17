@@ -1,3 +1,14 @@
-{
-    "name": "Ramesh"
-}
+[
+    {
+        "relations": [
+            "delegrate_permission/common.handle_all_urls"
+        ],
+        "targets":{
+            "namespace": "android_app",
+            "package_name": "com.example.inplayin2",
+            "sha256_cert_fingerprints": [
+                "D0:37:91:A3:C6:27:9A:58:8A:C2:5F:A2:8A:8A:9D:52:0D:F0:DB:9C:21:D7:68:D7:81:62:8B:F9:B4:0C:83:EF"
+              ]
+        }
+    }
+]
