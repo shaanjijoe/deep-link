@@ -1,7 +1,7 @@
 [
     {
         "relations": [
-            "delegrate_permission/common.handle_all_urls"
+            "delegate_permission/common.handle_all_urls"
         ],
         "targets":{
             "namespace": "android_app",
