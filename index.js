@@ -33,6 +33,10 @@ app.get('/ping', (req, res) => {
     res.status(200).send("WOrking");
 })
 
+app.get('/ping2', (req, res) => {
+  res.status(200).send("Checking new api added");
+})
+
 app.listen(3000, () => {
   console.log('Server is running on port 3000');
 });
