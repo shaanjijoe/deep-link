@@ -1,0 +1,14 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": [
+          "983PG3TF9R.com.test74291.test"
+        ],
+        "paths": [
+          "*"
+        ]
+      }
+    ]
+  }
+}
