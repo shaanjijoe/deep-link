@@ -6,6 +6,7 @@ const app = express();
 // Endpoint for serving AASA file for iOS
 app.get('/.well-known/apple-app-site-association', (req, res) => {
   const aasaFilePath = 'apple-app-site-association';
+  console.log("Apple file accessed");
   fs.readFile(aasaFilePath, (err, data) => {
     if (err) {
       res.status(500).send('Error reading AASA file');
